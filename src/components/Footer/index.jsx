@@ -20,16 +20,16 @@ const Footer = () => {
                         <div className="navlinks">
                             <ul className="flex md:flex-row text-xs md:text-sm md:font-semibold md:items-center gap-2 md:gap-16">
                                 <li className="">
-                                    <a href="" className="">About</a>
+                                    <a href="/" className="">About</a>
                                 </li>
                                 <li className="">
-                                    <a href="" className="">Gallery</a>
+                                    <a href="/" className="">Gallery</a>
                                 </li>
                                 <li className="">
-                                    <a href="" className="">Exhibitions</a>
+                                    <a href="/" className="">Exhibitions</a>
                                 </li>
                                 <li className="">
-                                    <a href="" className="">Contact</a>
+                                    <a href="/" className="">Contact</a>
                                 </li>
                             </ul>
                         </div>

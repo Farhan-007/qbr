@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -46,13 +46,13 @@ export default function Header() {
 
                 <div className="social relative hidden md:flex justify-center items-center mt-[10rem] bg-[#002734] py-6 px-8 pb-14">
                     <div className="flex flex-col gap-4 justify-center items-center text-white">
-                        <a target="_blank" href="https://www.instagram.com/_ra.hil/">
+                        <a target="_blank" rel="noreferrer"  href="https://www.instagram.com/_ra.hil/">
                             <InstagramIcon />
                         </a>
-                        <a target="_blank" href="https://twitter.com/cali_athlete1">
+                        <a target="_blank" rel="noreferrer" href="https://twitter.com/cali_athlete1">
                             <TwitterIcon />
                         </a>
-                        <a target="_blank" href="">
+                        <a target="_blank" rel="noreferrer" href="/">
                             <YouTubeIcon />
                         </a>
                         <span className=" absolute -bottom-3 block text-white bg-orange-500 -rotate-90 p-[3px] px-[5px]">follow me</span>

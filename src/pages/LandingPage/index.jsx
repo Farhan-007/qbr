@@ -10,6 +10,7 @@ import "./style.css"
 function LandingPage() {
 
     const ref = useRef(null);
+    ref()
 
 
     return (
