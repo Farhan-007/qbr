@@ -19,8 +19,8 @@ function LandingPage() {
 
                     {/* LandingPage */}
                     <span className="relative md:w-1/3">
-                        <img className="bg-gray-img" src="src/assets/intro/IMG20220303142639-01.jpeg" alt="" />
-                        <img className="fg-img h-[80%] md:w-[120%]" src="src/assets/intro/IMG20220303142639-01.jpeg" alt="" />
+                        <img className="bg-gray-img" src="assets/intro/IMG20220303142639-01.jpeg" alt="" />
+                        <img className="fg-img h-[80%] md:w-[120%]" src="assets/intro/IMG20220303142639-01.jpeg" alt="" />
                     </span>
 
                     <div className="flex justify-center md:w-1/3">

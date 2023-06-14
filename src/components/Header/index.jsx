@@ -27,7 +27,7 @@ export default function Header() {
         <div className="headWrapper z-[2] h-[100px]">
             <div className="header h-full relative">
                 <div className="logo w-[100px]">
-                    <img src="src/assets/logo/rahil_boi.png" className=' md:scale-[4] scale-[2]' alt="" />
+                    <img src="assets/logo/rahil_boi.png" className=' md:scale-[4] scale-[2]' alt="" />
                     {/* <span className="logo-text flex gap-2 text-2xl uppercase">
                         <p className="">Qisse</p>
                         <p className="">Rahil</p>

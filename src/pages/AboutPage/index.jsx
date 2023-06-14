@@ -13,8 +13,8 @@ function About() {
             <ContactBtn2 />
           </span>
           <div className="img relative flex items-center ">
-            <img src="src/assets/intro/r.jpg" alt="" className=' grayscale md:h-[450px] md:w-[350px] h-[300px] -ml-5 object-cover' />
-            <img src="src/assets/intro/r.jpg" alt="" className="absolute aspect-square scale-125 top-[17%] md:-right-[20px] right-2 md:h-[60%] h-[230px] w-[230px] md:w-[80%] object-cover " />
+            <img src="assets/intro/r.jpg" alt="" className=' grayscale md:h-[450px] md:w-[350px] h-[300px] -ml-5 object-cover' />
+            <img src="assets/intro/r.jpg" alt="" className="absolute aspect-square scale-125 top-[17%] md:-right-[20px] right-2 md:h-[60%] h-[230px] w-[230px] md:w-[80%] object-cover " />
           </div>
           <div className=" md:w-1/2 pt-5 md:p-0">
             <p className=' md:ml-10'>
