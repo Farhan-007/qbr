@@ -1,6 +1,6 @@
 // import { Facebook, FacebookOutlined, Instagram, LinkedIn, Gmail, Mail} from '@mui/icons-material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import './style.css'
 
 const Footer = () => {

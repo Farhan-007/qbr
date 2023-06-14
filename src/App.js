@@ -1,4 +1,4 @@
-import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
+import { Route, Routes, HashRouter} from "react-router-dom";
 import CommonContainer from "./CommonContainer"
 import LandingPage from "./pages/LandingPage"
 import './App.css';
