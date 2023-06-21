@@ -1,20 +1,17 @@
-import { React, useRef } from "react";
+import { React} from "react";
 import ContactBtn from "../../components/ContactButton";
 import ImageCard from "../../components/imageCard";
-import About from "../AboutPage";
-import Exhibition from "../ExhibitionPage";
-import MyGallery from "../GalleryPage";
+// import About from "../AboutPage";
+// import Exhibition from "../ExhibitionPage";
+// import MyGallery from "../GalleryPage";
 import "./style.css"
 
 
 function LandingPage() {
 
-    const ref = useRef(null);
-
-
     return (
         <>
-            <div ref={ref} className="Landing-wrapper relative md:px-[5rem] px-5 pb-20">
+            <div className="Landing-wrapper relative md:px-[5rem] px-5 pb-20">
                 <div className=" flex md:flex-row flex-col md:items-start items-center gap-5 ">
 
                     {/* LandingPage */}
@@ -30,10 +27,10 @@ function LandingPage() {
                                 #1 photo of the year winner
                             </p>
                             <p className="md:text-6xl text-3xl text-white capitalize max-w-min">
-                                photographhy helps people to see
+                                What is qissebyrahil
                             </p>
-                            <p className=" md:p-6 md:absolute top-[80%] left-[50%] -right-[100%] md:text-[18px] text-sm text-[#7092a1]">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores placeat esse quisquam repudiandae dolores expedita nemo provident impedit reiciendis totam error quia tenetur eius quae repellat, architecto fugit enim facere! Hic assumenda mollitia neque.
+                            <p className=" md:p-6 md:absolute top-[90%] left-[50%] -right-[100%] md:text-[18px] text-sm text-[#7092a1]">
+                                Welcome to Qisse by Rahil, a dynamic team of exceptional photographers and cinematographers. With our extensive expertise across various categories, we have mastered the art of capturing pure emotions and preserving your precious moments like no other. We are not just skilled professionals; we are storytellers who understand the power of imagery in weaving narratives that will resonate with you for a lifetime.
                             </p>
 
 
@@ -48,9 +45,9 @@ function LandingPage() {
                     </div>
                 </div>
             </div>
-            <About />
+            {/* <About />
             <MyGallery />
-            <Exhibition />
+            <Exhibition /> */}
         </>
     )
 }

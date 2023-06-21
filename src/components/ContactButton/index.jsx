@@ -8,10 +8,10 @@ function ContactBtn() {
     return (
         <button className=" cursor-pointer scale-75 md:scale-[1] flex items-center justify-center text-[#001a28] font-bold rounded-[50%] ">
             <span className="absolute z-[1] text-[40px] pb-3 rounded-[50%] ">
-                <ArrowOutwardIcon fontSize='inherit'/>
+                <ArrowOutwardIcon fontSize='inherit' />
             </span>
             <div className=' contact-btn relative flex items-center justify-center h-[150px] aspect-square rounded-[50%] text-[#001a28] border-[5px]  border-[#001a28] uppercase text-[16px] bg-gradient-to-br from-[#ffd2ad] via-[#ff7c00] to-[#ffd2ad]'>
-                <h1 >
+                <a className='flex items-center h-full w-full' href="mailto:rahilkhan9770027294@gmail.com">
 
                     {
                         Arr.map((item, key) => {
@@ -23,7 +23,7 @@ function ContactBtn() {
                             )
                         })
                     }
-                </h1 >
+                </a >
             </div>
         </button>
     )

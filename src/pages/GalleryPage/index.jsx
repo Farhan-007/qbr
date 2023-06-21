@@ -27,7 +27,7 @@ function MyGallery() {
                 </div>
                 <div className="flex md:flex-row flex-col items-center justify-between w-full">
                     <p className="md:ml-40 md:w-[50%]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat, ipsam maxime eum illum ratione quas minus quaerat nemo, architecto, iure beatae voluptatibus rem cupiditate?
+                        Discover Rahil Khan's captivating gallery, where emotions and art intertwine. Explore stunning portraits, fashion, food, products, real estate, and weddings. Experience the world through Rahil's creative lens.
                     </p>
                     <span className="flex items-center gap-2 p-4">
                         <button onClick={() => scroll(-500)} className=" flex items-center justify-center border-2 rounded-[50%] border-[#00334d] hover:border-[#7092a1] hover:text-[#7092a1]

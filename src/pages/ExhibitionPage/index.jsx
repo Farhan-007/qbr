@@ -10,7 +10,7 @@ function Exhibition() {
         <div className="flex flex-col gap-5">
           <h1 className="md:text-5xl text-3xl">Exhibitions</h1>
           <p className="md:w-2/3 md:ml-20">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fuga totam quisquam nisi maxime eaque dicta excepturi at voluptatem autem, ut ipsam et animi eos?
+            Experience Rahil Khan's captivating exhibition, where emotions and art converge. Immerse yourself in stunning visuals that transcend boundaries.
           </p>
         </div>
         <div className=" ">

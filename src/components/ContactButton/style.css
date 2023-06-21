@@ -3,7 +3,7 @@
     animation: round 5s linear infinite;
     border: 5px solid #00000000;
 }
-.contact-btn h1 span {
+.contact-btn a span {
     /* font: 26px Monaco, MonoSpace; */
     height: 60px;
     position: absolute;
